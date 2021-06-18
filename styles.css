@@ -1,0 +1,37 @@
+.well {
+    display: flex;
+    align-items: center;
+}
+
+.gandyimg {
+    transform: rotate(-10deg);
+}
+
+@media (max-width: 479px) {
+    .welcometext {
+        font-size: 40px;
+    }
+    .welcomebelow {
+        display: none;
+    }
+    .ytvideo {
+        max-width: 100%;
+        height: auto;
+    }
+    .showwhat {
+        display: block;
+    }
+}
+
+@media (min-width: 480px) {
+    .welcometext {
+        font-size: 70px;
+    }
+    .welcomebelow {
+        font-size: 24px;
+    }
+    .ytvideo {
+        width: 854px;
+        height: 480px;
+    }
+}
